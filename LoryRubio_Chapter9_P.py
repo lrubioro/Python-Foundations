@@ -25,7 +25,7 @@ class BankAcct:
         else:
             print("You do not have sufficient funds")
 
-#Method to deposiut money
+#Method to deposit money
     def deposit (self,amount):
         self.amount += amount
         print("Deposit successful")
